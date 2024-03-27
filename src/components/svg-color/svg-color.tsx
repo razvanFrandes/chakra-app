@@ -26,4 +26,6 @@ const SvgColor = forwardRef<HTMLSpanElement, SvgColorProps>(({ src, sx, ...other
   />
 ));
 
+SvgColor.displayName = 'SvgColor'; // Add display name
+
 export default SvgColor;

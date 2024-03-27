@@ -22,4 +22,7 @@ const Iconify = forwardRef<SVGElement, Props>(({ icon, width = 20, sx, ...other 
   />
 ));
 
+Iconify.displayName = 'Iconify'; // Add display name
+
+
 export default Iconify;

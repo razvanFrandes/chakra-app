@@ -36,4 +36,6 @@ const Scrollbar = forwardRef<HTMLDivElement, ScrollbarProps>(({ children, sx, ..
   );
 });
 
+Scrollbar.displayName = 'Scrollbar'; // Add display name
+
 export default memo(Scrollbar);

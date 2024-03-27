@@ -7,4 +7,6 @@ const RouterLink = forwardRef<HTMLAnchorElement, LinkProps>(({ ...other }, ref) 
   <Link ref={ref} {...other} />
 ));
 
+RouterLink.displayName = 'RouterLink'; // Add display name
+
 export default RouterLink;

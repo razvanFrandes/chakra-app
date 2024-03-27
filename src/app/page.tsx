@@ -159,7 +159,7 @@ export default function HomePage() {
                     and strength that lies within.
                   </p>
                   <div className="mt-8 flex gap-5">
-                    <Button variant="secondary">
+                    <Button variant="contained">
                       <Link href="/login">Get Started</Link>
                     </Button>
                   </div>
